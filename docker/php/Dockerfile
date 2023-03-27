@@ -13,6 +13,7 @@ RUN groupadd -g 1000 laravel && \
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         supervisor \
+        nginx \
         libonig-dev \
         libzip-dev \
         zip \
